@@ -13,3 +13,9 @@
 * Clone o projeto: `git clone https://github.com/LuizHenriqueLobo1/go-study.git`
 
 * Rode o projeto: `go run .`
+
+---
+
+<p align="center">
+  Made by <a href="https://github.com/luizhenriquelobo1/" target="_blank">Luiz Henrique Lobo</a>
+</p>

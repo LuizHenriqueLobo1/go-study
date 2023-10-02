@@ -1,11 +1,13 @@
 package main
 
 import "fmt"
+import "github.com/luizhenriquelobo1/go-study/utils"
 
 func main() {
 	// hello()
 	// variables()
-	arrays()
+	// arrays()
+	utils.SayHelloTo("Teste")
 }
 
 func hello() {

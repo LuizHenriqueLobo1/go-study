@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 	// hello()
-	variables()
+	// variables()
+	arrays()
 }
 
 func hello() {
@@ -25,5 +26,32 @@ func variables() {
 
 	bestGameInTheWorld = "Red Dead Redemption 2"
 
+	// Constante
+	const pi = 3.14
+
 	fmt.Println(bestGameInTheWorld)
+}
+
+func arrays() {
+	// Declarando array sem inicializá-lo
+	var emptyArray []string
+
+	// Adicionando elemento ao array
+	emptyArray = append(emptyArray, "Arthur")
+
+	// Declarando array e incializando o mesmo
+	names := []string{"Abigail", "John", "Jack"}
+
+	// Pegando um range específico de elementos de outro array
+	names = names[0:2]
+
+	// Tamanho do array
+	namesLength := len(names)
+
+	// Percorrendo array
+	for index, value := range names {
+		fmt.Println(index, value)
+	}
+
+	fmt.Println(emptyArray, names, namesLength)
 }

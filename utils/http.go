@@ -14,7 +14,7 @@ type GitHubUser struct {
 }
 
 func GetDataOfUser(user string) {
-	url := "https://api.github.com/users/" + user
+	url := fmt.Sprintf("https://api.github.com/users/%s", user)
 
 	// Faz o request
 	resp, err := http.Get(url)

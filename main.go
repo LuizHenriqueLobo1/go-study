@@ -8,7 +8,8 @@ func main() {
 	// variables()
 	// arrays()
 	// utils.SayHelloTo("Teste")
-	utils.GetDataOfUser("luizhenriquelobo1")
+	// utils.GetDataOfUser("luizhenriquelobo1")
+	utils.Main()
 }
 
 func hello() {
@@ -22,7 +23,7 @@ func variables() {
 	// Forma mais utilizada para declaração de variáveis com escopo mais fechado
 	age := 22
 	
-	fmt.Println(fmt.Sprintf("Meu nome é %s, tenho %d anos.", name, age))
+	fmt.Printf("Meu nome é %s, tenho %d anos.", name, age)
 
 	// Forma utilizada para declarar variáveis sem necessariamente atribuir um valor a elas, é importante que seja declarado o tipo da mesma
 	var bestGameInTheWorld string

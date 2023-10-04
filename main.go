@@ -7,7 +7,8 @@ func main() {
 	// hello()
 	// variables()
 	// arrays()
-	utils.SayHelloTo("Teste")
+	// utils.SayHelloTo("Teste")
+	utils.GetDataOfUser("luizhenriquelobo1")
 }
 
 func hello() {
